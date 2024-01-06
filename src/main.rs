@@ -7,6 +7,8 @@ struct Barang {
     jenis_barang: String,
 }
 
+// Menambahkan data
+
 fn tambah_data_barang(daftar_data_barang: &mut Vec<Barang>) {
     println!("Tambah Data Barang");
 
@@ -38,6 +40,8 @@ fn tambah_data_barang(daftar_data_barang: &mut Vec<Barang>) {
     println!("Data Barang berhasil ditambahkan!")
 }
 
+// Menampilkan data
+
 fn tampilkan_data_barang(daftar_data_barang: &Vec<Barang>) {
     println!("Data Barang");
 
@@ -45,6 +49,8 @@ fn tampilkan_data_barang(daftar_data_barang: &Vec<Barang>) {
         println!("{:?}", data_barang);
     }
 }
+
+// Menjalankan dan tampilan View Program Data
 
 fn main() {
     let mut daftar_data_barang: Vec<Barang> = Vec::new();
